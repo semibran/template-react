@@ -6,15 +6,24 @@
   "author": "{{author.username}} ({{author.name}})",
   "license": "MIT",
   "dependencies": {
-    "react": "^17.0.1"
+    "react": "*",
+    "react-dom": "*",
+    "react-router-dom": "^*",
+    "sass": "*",
+    "uglify-js": "*"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "chokidar-cli": "^2.1.0",
-    "esbuild": "^0.8.31",
-    "html-minifier": "^4.0.0",
-    "postcss": "^8.2.2",
-    "postcss-cli": "^8.3.1",
-    "sass": "^1.32.2"
+    "chokidar-cli": "*",
+    "clean-css-cli": "*",
+    "esbuild": "*",
+    "eslint": "*",
+    "eslint-config-standard": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-node": "*",
+    "eslint-plugin-promise": "*",
+    "html-minifier": "*",
+    "postcss": "*",
+    "postcss-cli": "*",
+    "typescript": "*"
   }
 }
