@@ -1,7 +1,20 @@
 {
   "name": "{{project.name}}",
+  "version": "0.0.0",
   "description": "{{project.description}}",
+  "repository": "{{author.username}}/{{project.name}}",
+  "author": "{{author.username}} ({{author.name}})",
+  "license": "MIT",
   "dependencies": {
     "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "chokidar-cli": "^2.1.0",
+    "esbuild": "^0.8.31",
+    "html-minifier": "^4.0.0",
+    "postcss": "^8.2.2",
+    "postcss-cli": "^8.3.1",
+    "sass": "^1.32.2"
   }
 }
