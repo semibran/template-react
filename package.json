@@ -9,8 +9,7 @@
     "react": "*",
     "react-dom": "*",
     "react-router-dom": "^*",
-    "sass": "*",
-    "uglify-js": "*"
+    "sass": "*"
   },
   "devDependencies": {
     "chokidar-cli": "*",
@@ -24,6 +23,7 @@
     "html-minifier": "*",
     "postcss": "*",
     "postcss-cli": "*",
-    "typescript": "*"
+    "typescript": "*",
+    "uglify-js": "*"
   }
 }

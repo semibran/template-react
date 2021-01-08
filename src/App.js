@@ -1,4 +1,5 @@
 import React from 'react'
 
-export default _ =>
-  <h1>Hello world!</h1>
+export default function App () {
+  return <h1 className='name'>Hello world!</h1>
+}
