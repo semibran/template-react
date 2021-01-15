@@ -7,7 +7,7 @@ To get started, clone this repo and enter the following commands.
 > scaffy     # replace template tags
 > pkg-bump   # update dependency versions
 > pnpm i     # install deps
-> make watch # watch files; requires make 3.8.2+
+> make start # watch files; requires make 3.8.2+
 ```
 
 You may remove any mention of `scaffy` or `pkg-bump` from this document once both commands have completed successfully.
