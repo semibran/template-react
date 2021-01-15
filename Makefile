@@ -25,7 +25,7 @@ start: clean js css html assets
 
 clean:
 	rm -rf dist
-	mkdir -p {tmp,dist/assets}
+	mkdir -p {tmp,src/assets,dist/assets}
 
 html:
 	cp src/index.html dist/index.html
