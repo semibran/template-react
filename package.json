@@ -6,6 +6,7 @@
   "author": "{{author.username}} ({{author.name}})",
   "license": "MIT",
   "dependencies": {
+    "prop-types": "*",
     "react": "*",
     "react-dom": "*",
     "react-router-dom": "^*",
@@ -20,6 +21,7 @@
     "eslint-plugin-import": "*",
     "eslint-plugin-node": "*",
     "eslint-plugin-promise": "*",
+    "eslint-plugin-react": "*",
     "html-minifier": "*",
     "postcss": "*",
     "postcss-cli": "*",
